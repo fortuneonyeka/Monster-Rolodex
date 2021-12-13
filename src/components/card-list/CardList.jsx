@@ -6,10 +6,8 @@ function CardList(props)
 {
   return (
     <div>
-      {/* <h1 className="page-title">Monster Roledex</h1>
-      <input type="search"/> */}
       <span className='card-list'>
-        {props.Monsters.map(monster => <Card key={monster.id} monster={monster}/>)}
+        {props.monsters.map(monster => <Card key={monster.id} monster={monster}/>)}
         </span>
     </div>
   )
